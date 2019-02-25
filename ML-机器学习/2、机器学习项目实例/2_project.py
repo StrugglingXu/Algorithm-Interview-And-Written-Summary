@@ -158,7 +158,7 @@ if __name__ == "__main__":
     plt.show()
 
     #加入地图背景
-    california_img = mping.imread('/home/xyk/anaconda3/envs/ML_sklearn_tf' +'/images/end_to_end_project/california.png')
+    california_img = mping.imread('/home/xyk/anaconda3/envs/ML_sklearn_tf/ML-机器学习/2、机器学习项目实例' +'/images/end_to_end_project/california.png')
     ax = housing.plot(kind='scatter', x='longitude', y='latitude', alpha=0.4,
                  s=housing['population'] / 100, label='population', figsize=(10, 7),
                  c='median_house_value', cmap=plt.get_cmap('jet'), colorbar=False,)
