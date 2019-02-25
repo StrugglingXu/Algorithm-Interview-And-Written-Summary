@@ -17,6 +17,13 @@ Github地址：https://github.com/StrugglingXu/Algorithm-Interview-And-Written-S
 * 完整数学公式编辑请参考：https://zh.wikipedia.org/wiki/Help:%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F
 
 # 参考资料
+* exacity/deeplearningbook-chinese: 深度学习中文版
+* elviswf/DeepLearningBookQA_cn: 深度学习面试问题
+* huihut/interview: C/C++面试知识总结
+* CSDN博客/结构之法 算法之道
+* 牛客网/笔试面经
+* GitHub 搜索：Deep Learning Interview
+* GitHub 搜索：Machine Learning Interview
 
 # 欢迎分享，共同进步！
 * 遇到问题可以给我留言，我会在第一时间回答，同时也请大家集思广益！
