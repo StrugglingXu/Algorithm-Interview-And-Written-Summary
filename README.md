@@ -63,7 +63,7 @@ Algorithm-Interview-And-Written-Summary
 - GitHub 搜索：[Deep Learning Interview](https://github.com/search?q=deep+learning+interview)
 - GitHub 搜索：[Machine Learning Interview](https://github.com/search?q=machine+learning+interview)
 - 算法/深度学习/机器学习面试问题整理，想法最初来源于这个[仓库](https://github.com/elviswf/DeepLearningBookQA_cn)
-
+- 该仓库内容主要参考的[Github](https://github.com/imhuay/Algorithm_Interview_Notes-Chinese)
 # 欢迎分享，共同进步！
 * 遇到问题可以给我留言，我会在第一时间回答，同时也请大家集思广益！
 * 我会经常补充分支内容！
