@@ -47,7 +47,7 @@ Algorithm-Interview-And-Written-Summary
 - :cherries: [<font size=+1>数学</font>](./7_数学)
 - :apple: [<font size=+1>算法</font>](./8_算法)
 - :cookie: [<font size=+1>笔试面经</font>](./9_笔试面经)
-- :soccer: [<font size=+1>机器学习</font>](./10_推荐系统)
+- :soccer: [<font size=+1>推荐系统</font>](./10_推荐系统)
 
 # 工具
 * 在线编辑公式：http://www.codecogs.com/latex/eqneditor.php
