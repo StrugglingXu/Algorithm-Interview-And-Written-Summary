@@ -1,15 +1,50 @@
-# Algorithm-Interview-And-Written-Summary
+Algorithm-Interview-And-Written-Summary
+===
 今年开始找工作，非常希望能够记录自己成长的点滴同时能够为别人提供方便。
 
-# 算法/深度学习/强化学习面试笔记
-Github地址：https://github.com/StrugglingXu/Algorithm-Interview-And-Written-Summary
+算法/深度学习/强化学习面试笔记
+===
+**Github地址**：https://github.com/StrugglingXu/Algorithm-Interview-And-Written-Summary
 
-# 分类板块
-* **机器学习**
-* **深度学习**
-* **强化学习**
-* **数据结构与算法**
-* **笔试面试汇总**
+分类板块
+---
+
+<!-- | A | B | C | D | E | F | G | H | 
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
+| 机器学习<br/>[:soccer:](./1_机器学习) | 深度学习<br/>[:basketball:](./2_深度学习) | 强化学习<br/>[:hamburger:](./3_强化学习) | 计算机视觉<br/>[:fries:](./D-计算机视觉) | 算法<br/>[:apple:](./E-算法) | 数学<br/>[:cherries:](./F-数学) | 编程语言<br/>[:strawberry:](./G-编程语言) | 笔试面经<br/>[:cookie:](./H-笔试面经) |  -->
+
+<!-- <table style="width:100%; table-layout:fixed;">
+  <tr>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+    <td>D</td>
+    <td>E</td>
+    <td>F</td>
+    <td>G</td>
+    <td>H</td>
+  </tr>
+  <tr>
+    <td>机器学习<br/>[:soccer:](./1_机器学习)</td>
+    <td>深度学习<br/>[:basketball:](./2_深度学习)</td>
+    <td>强化学习<br/>[:hamburger:](./3_强化学习)</td>
+    <td>计算机视觉<br/>[:fries:](./D-计算机视觉)</td>
+    <td>算法<br/>[:apple:](./E-算法)</td>
+    <td>数学<br/>[:cherries:](./F-数学)</td>
+    <td>编程语言<br/>[:strawberry:](./G-编程语言)</td>
+    <td>笔试面经<br/>[:cookie:](./H-笔试面经)</td>
+  </tr>
+</table> -->
+
+- :soccer: [<font size=+1>机器学习</font>](./1_机器学习)
+- :basketball: [<font size=+1>深度学习</font>](./2_深度学习)
+- :hamburger: [<font size=+1>强化学习<br/>[:hamburger:](./3_强化学习)
+- :fries: [<font size=+1>计算机视觉</font>](./B-计算机视觉)
+- :cherries: [<font size=+1>数学</font>](./C-数学)
+- :apple: [<font size=+1>算法</font>](./C-算法)
+- :strawberry: [<font size=+1>编程语言</font>](./C-编程语言)
+- :cookie: [<font size=+1>笔试面经</font>](./D-笔试面经)
+
 
 # 工具
 * 在线编辑公式：http://www.codecogs.com/latex/eqneditor.php

@@ -34,8 +34,8 @@ RoadMap
   </tr>
 </table> -->
 
-- :soccer: [<font size=+1>机器学习</font>](./A-机器学习)
-- :basketball: [<font size=+1>深度学习</font>](./A-深度学习)
+- :soccer: [<font size=+1>机器学习</font>](./1_机器学习)
+- :basketball: [<font size=+1>深度学习</font>](./2_深度学习)
 - :hamburger: [<font size=+1>自然语言处理</font>](./B-自然语言处理)
 - :fries: [<font size=+1>计算机视觉</font>](./B-计算机视觉)
 - :cherries: [<font size=+1>数学</font>](./C-数学)
