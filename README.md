@@ -55,9 +55,9 @@ Algorithm-Interview-And-Written-Summary
 * 完整数学公式编辑请参考：https://zh.wikipedia.org/wiki/Help:%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F
 
 # 参考资料
-- https://github.com/exacity/deeplearningbook-chinese: [深度学习中文版]
-- https://github.com/elviswf/DeepLearningBookQA_cn: [深度学习面试问题]
-- https://github.com/huihut/interview: [C/C++面试知识总结]
+- exacity/[deeplearningbook-chinese]https://github.com/exacity/deeplearningbook-chinese: 深度学习中文版
+- elviswf/[DeepLearningBookQA_cn]https://github.com/elviswf/DeepLearningBookQA_cn: 深度学习面试问题
+- huihut/[interview: C/C++面试知识总结]https://github.com/huihut/interview: C/C++面试知识总结
 - https://blog.csdn.net/v_july_v [算法之道]
 - 牛客网/[笔试面经]/https://www.nowcoder.com/discuss?type=2&order=0
 - GitHub 搜索：[Deep Learning Interview] https://github.com/search?q=deep+learning+interview
