@@ -9,20 +9,22 @@ Algorithm-Interview-And-Written-Summary
 分类板块
 ---
 
-<!-- | A | B | C | D | E | F | G | H | 
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
-| 机器学习<br/>[:soccer:](./1_机器学习) | 深度学习<br/>[:basketball:](./2_深度学习) | 强化学习<br/>[:hamburger:](./3_强化学习) | 计算机视觉<br/>[:fries:](./D-计算机视觉) | 算法<br/>[:apple:](./E-算法) | 数学<br/>[:cherries:](./F-数学) | 编程语言<br/>[:strawberry:](./G-编程语言) | 笔试面经<br/>[:cookie:](./H-笔试面经) |  -->
+<!-- | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| 机器学习<br/>[:soccer:](./1_机器学习) | 深度学习<br/>[:basketball:](./2_深度学习) | 强化学习<br/>[:hamburger:](./3_强化学习) | 计算机视觉<br/>[:fries:](./4_计算机视觉) | 自然语言处理<br/>[:apple:](./5_自然语言处理) | 编程语言<br/>[:strawberry:](./6_编程语言) |数学<br/>[:cherries:](./7_数学) |  算法<br/>[:cookie:](./8_算法) |笔试面经<br/>[:cookie:](./9_笔试面经) |推荐系统<br/>[:cookie:](./10_推荐系统) |  -->
 
 <!-- <table style="width:100%; table-layout:fixed;">
   <tr>
-    <td>A</td>
-    <td>B</td>
-    <td>C</td>
-    <td>D</td>
-    <td>E</td>
-    <td>F</td>
-    <td>G</td>
-    <td>H</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
   </tr>
   <tr>
     <td>机器学习<br/>[:soccer:](./1_机器学习)</td>
@@ -38,13 +40,14 @@ Algorithm-Interview-And-Written-Summary
 
 - :soccer: [<font size=+1>机器学习</font>](./1_机器学习)
 - :basketball: [<font size=+1>深度学习</font>](./2_深度学习)
-- :hamburger: [<font size=+1>强化学习<br/>[:hamburger:](./3_强化学习)
-- :fries: [<font size=+1>计算机视觉</font>](./B-计算机视觉)
-- :cherries: [<font size=+1>数学</font>](./C-数学)
-- :apple: [<font size=+1>算法</font>](./C-算法)
-- :strawberry: [<font size=+1>编程语言</font>](./C-编程语言)
-- :cookie: [<font size=+1>笔试面经</font>](./D-笔试面经)
-
+- :hamburger: [<font size=+1>强化学习</font>](./3_强化学习)
+- :fries: [<font size=+1>计算机视觉</font>](./4_计算机视觉)
+- :basketball: [<font size=+1>自然语言处理</font>](./5_自然语言处理)
+- :strawberry: [<font size=+1>编程语言</font>](./6_编程语言)
+- :cherries: [<font size=+1>数学</font>](./7_数学)
+- :apple: [<font size=+1>算法</font>](./8_算法)
+- :cookie: [<font size=+1>笔试面经</font>](./9_笔试面经)
+- :soccer: [<font size=+1>机器学习</font>](./10_推荐系统)
 
 # 工具
 * 在线编辑公式：http://www.codecogs.com/latex/eqneditor.php
