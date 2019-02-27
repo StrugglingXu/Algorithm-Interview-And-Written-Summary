@@ -10,6 +10,13 @@ from sklearn.model_selection import StratifiedShuffleSplit
 import matplotlib.image as mping
 from pandas.plotting import scatter_matrix
 from sklearn.preprocessing import Imputer
+from sklearn.preprocessing import OrdinalEncoder
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import LabelBinarizer
+from sklearn.base import BaseEstimator, TransformerMixin
+from sklearn.utils import check_array
+from sklearn.preprocessing import LabelEncoder
+from scipy import sparse
 #设置pandas打印省略号的问题
 pd.set_option('display.max_columns',1000)
 pd.set_option('display.width', 1000)
@@ -94,7 +101,7 @@ if __name__ == "__main__":
 
     #收入分配柱状图
     housing['median_income'].hist()
-    plt.show()
+    # plt.show()
 
     #创建收入类别属性，产生离散的分类
     # 收入中位数除以1.5以限制收入分类的数量
@@ -107,7 +114,7 @@ if __name__ == "__main__":
 
     # 处理后的收入分配柱状图
     housing['income_cat'].hist()
-    plt.show()
+    # plt.show()
 
     # 根据收入分类，进行分层采样
     split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
@@ -142,7 +149,7 @@ if __name__ == "__main__":
     housing.plot(kind='scatter', x='longitude', y='latitude')
     # 先保存再显示
     # plt.savefig('bad_visualization_plot')
-    plt.show()
+    # plt.show()
 
     # 显示高密度区域散点图
     housing.plot(kind='scatter', x='longitude', y='latitude', alpha=0.1)
@@ -155,10 +162,14 @@ if __name__ == "__main__":
                  )
     plt.legend()
     # plt.savefig('housing_price_scatterplot')
-    plt.show()
+    # plt.show()
 
     #加入地图背景
-    california_img = mping.imread('/home/xyk/anaconda3/envs/ML_sklearn_tf/ML-机器学习/2、机器学习项目实例' +'/images/end_to_end_project/california.png')
+    # Ubuntu 系统
+    # california_img = mping.imread('/home/xyk/anaconda3/envs/ML_sklearn_tf/ML-机器学习/2、机器学习项目实例' +'/images/end_to_end_project/california.png')
+    # windows 系统
+    california_img = mping.imread('C:\File\Algorithm-Interview-And-Written-Summary\_codes\machine_learning\一个完整的机器学习项目实例' +'/images/end_to_end_project/california.png')
+
     ax = housing.plot(kind='scatter', x='longitude', y='latitude', alpha=0.4,
                  s=housing['population'] / 100, label='population', figsize=(10, 7),
                  c='median_house_value', cmap=plt.get_cmap('jet'), colorbar=False,)
@@ -175,7 +186,7 @@ if __name__ == "__main__":
 
     plt.legend(fontsize=16)
     # plt.savefig("california_housing_prices_plot")
-    plt.show()
+    # plt.show()
 
     # 每个属性和房价中位数的关联度
     # corr_matrix = housing.corr()
@@ -186,11 +197,11 @@ if __name__ == "__main__":
     attributes = ['median_house_value','median_income','total_rooms','housing_median_age']
     scatter_matrix(housing[attributes],figsize=(12, 8))
     plt.savefig('scatter_matrix_plot')
-    plt.show()
+    # plt.show()
 
     # 将最有希望用来预测房价中位数的属性是收入中位数，放大
     housing.plot(kind='scatter', x='median_income', y='median_house_value', alpha=0.1)
-    plt.show()
+    # plt.show()
 
     #尝试新的属性组合
     housing['rooms_per_household'] = housing['total_rooms']/housing['households']
@@ -234,5 +245,42 @@ if __name__ == "__main__":
     housing_tr = pd.DataFrame(X, columns=housing_num.columns,index=list(housing.index.values))
     print(housing_tr.loc[sample_incomplete_rows.index.values])
     # print('housing_tr:',housing_tr)
+    print(imputer.strategy)
+
+    housing_tr = pd.DataFrame(X, columns=housing_num.columns)
+    print(housing_tr.head())
+
+    # Now let's preprocess the categorical input feature, ocean_proximity:
+    housing_cat = housing[['ocean_proximity']]
+    print(housing_cat.head())
+
+    # 这些文本标签转换为数字
+    ordinal_encoder = OrdinalEncoder()
+    housing_cat_encoded = ordinal_encoder.fit_transform(housing_cat)
+    # print(housing_cat_encoded[:10])
+
+    # print(ordinal_encoder.categories_)
+
+    # 将整数分类值转变为独热向量
+    # encoder = OneHotEncoder()
+    # housing_cat_1hot = encoder.fit_transform(housing_cat_encoded.reshape(-1, 1))
+    # print(housing_cat_1hot)
+
+    # 将其转换为密集矩阵
+    # print('密集矩阵：',housing_cat_1hot.toarray())
+
+    # 使用类LabelBinarizer 可以执行两个转换（从文本分类到整数分类，再从整数分类到独热向量
+    # 传入参数 sparse_output=True 可得到一个稀疏矩阵
+    encoder = LabelBinarizer(sparse_output=True)
+    # housing_cat_1hot = encoder.fit_transform(housing_cat)
+    # print(housing_cat_1hot)
+
+    # 使用sklearn提供的CategoricalEncoder类(将来可用)
+    from sklearn.preprocessing import CategoricalEncoder
+
+    # cat_encoder = CategoricalEncoder()
+    # housing_cat_reshaped = housing_cat.values.reshape(-1, 1)
+    # housing_cat_1hot = cat_encoder.fit_transform(housing_cat_reshaped)
+
 
 
