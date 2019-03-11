@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0beeb1e6-312d-4f47-bced-dc0c285f7dc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.Two Sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13. Roman to Integer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14. Longest Common Prefix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20. Valid Parentheses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21. Merge Two Sorted Lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. Reverse Integer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. Palindrome Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/28. Implement strStr().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/35. Search Insert Position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/38. Count and Say.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/27. Remove Element.py" beforeDir="false" afterPath="$PROJECT_DIR$/27. Remove Element.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,22 +33,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="11" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="11" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="582" />
+          <entry key="py" value="602" />
+          <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="582" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Python" value="602" />
         </counts>
       </usages-collector>
     </session>
@@ -69,19 +67,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21. Merge Two Sorted Lists.py">
+        <entry file="file://$PROJECT_DIR$/35. Search Insert Position.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="138">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array.py">
+        <entry file="file://$PROJECT_DIR$/38. Count and Say.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
-              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -109,6 +107,10 @@
         <option value="$PROJECT_DIR$/20. Valid Parentheses.py" />
         <option value="$PROJECT_DIR$/21. Merge Two Sorted Lists.py" />
         <option value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array.py" />
+        <option value="$PROJECT_DIR$/27. Remove Element.py" />
+        <option value="$PROJECT_DIR$/28. Implement strStr().py" />
+        <option value="$PROJECT_DIR$/35. Search Insert Position.py" />
+        <option value="$PROJECT_DIR$/38. Count and Say.py" />
       </list>
     </option>
   </component>
@@ -278,6 +280,21 @@
       <option name="presentableId" value="Default" />
       <updated>1552118080071</updated>
     </task>
+    <task id="LOCAL-00001" summary="add exercise fill easy">
+      <created>1552287721086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552287721086</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add exercise fill easy">
+      <created>1552287787955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552287787955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -312,6 +329,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add exercise fill easy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add exercise fill easy" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/7. Reverse Integer.py">
@@ -355,10 +376,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20. Valid Parentheses.py">
+    <entry file="file://$PROJECT_DIR$/28. Implement strStr().py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        <state relative-caret-position="286">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -369,10 +404,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array.py">
+    <entry file="file://$PROJECT_DIR$/20. Valid Parentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/35. Search Insert Position.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/38. Count and Say.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>
